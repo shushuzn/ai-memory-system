@@ -5,8 +5,8 @@ Configuration for AI Memory System.
 import os
 from pathlib import Path
 
-# Base paths - use current working directory or user's data directory
-WORKSPACE = Path.cwd()
+# Base paths
+WORKSPACE = Path("D:/OpenClaw/workspace")
 DATA_DIR = WORKSPACE / "ai-memory-system" / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
